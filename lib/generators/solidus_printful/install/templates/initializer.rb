@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 SolidusPrintful.configure do |config|
-  # TODO: Remember to change this with the actual preferences you have implemented!
-  # config.sample_preference = 'sample_value'
+  # Set your Printful API Key here
+  config.api_key = 'my-api-key'
 end
