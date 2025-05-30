@@ -3,3 +3,5 @@ require:
 
 AllCops:
   NewCops: disable
+Style/StringLiterals:
+  EnforcedStyle: single_quotes

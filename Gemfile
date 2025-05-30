@@ -24,7 +24,7 @@ when 'mysql'
 when 'postgresql'
   gem 'pg'
 else
-  gem 'sqlite3', rails_version < '7.2' ? '~> 1.4' : '~> 2.0'
+  gem 'sqlite3', (rails_version < '7.2') ? '~> 1.4' : '~> 2.0'
 end
 
 if rails_version == '7.0'
